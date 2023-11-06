@@ -14,7 +14,7 @@ p{
     text-align: left;
 }
 li{
-    list-style: none;
+    list-style:decimal;
 }
 .forms-content{
     text-align: center;
