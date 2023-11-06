@@ -11,7 +11,7 @@ function LocationInfo({ locationInfo,clearLocationInfo  }) {
           <p>State: {locationInfo.places[0] ? locationInfo.places[0].state : ''}</p>
           <h3 style={{textAlign:"left"}} >Places:</h3>
           <ul>
-          <li style={{textAlign:"left" ,fontWeight:"bold"}}>Place Name:</li>
+          <h4 style={{textAlign:"left" ,fontWeight:"bold"}}>Place Name:</h4>
             {locationInfo.places.map((place, index) => (
               
               <li key={index}>
